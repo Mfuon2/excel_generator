@@ -1,13 +1,11 @@
 package com.generator.excel;
 
 import com.generator.excel.model.LogModel;
-import com.generator.excel.service.ExcelGeneratorService;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.awt.Color;
 import java.io.FileOutputStream;
 import java.math.BigDecimal;
 import java.util.ArrayList;
